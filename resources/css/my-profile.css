@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Avenir Book";
+    src: url("../../avenir_ff/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+    font-family: "Avenir Black";
+    src: url("../../avenir_ff"/AvenirLTStd-Black.otf);
+}
+
+.iphone-container {
+    height : 780px;
+    width : 360px;
+    border: 1px solid black;
+    background: #F8F8F8;
+}
+
+.profile-container {
+    #display: flex;
+}
+
+.profile-image-top {
+    width: 100%;
+    #align-self: flex-start;
+}
+.profile-image-bottom {
+    width: 100%;
+    #align-self: flex-end;
+}
+
+.friends-title {
+    font-family: Avenir Black;
+    line-height: 1.5rem;
+    margin: .25rem 0 .75rem 1rem;
+}
+
+.review-line {
+    background-color: #FFFFFF;
+    font-family: Avenir Black;
+    line-height: 3.35rem;
+    padding-left: 2rem;
+    margin: 0 0.5rem 0.5rem 1rem;
+    font-size: 14px;
+    border-radius: 10px;
+}
