@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Avenir Black";
-    src: url("../../avenir_ff"/AvenirLTStd-Black.otf);
+    src: url("../../avenir_ff/AvenirLTStd-Black.otf");
 }
 
 .iphone-container {
@@ -13,6 +13,7 @@
     width : 360px;
     border: 1px solid black;
     background: #F8F8F8;
+    color: #17191D;
 }
 
 .profile-container {
@@ -29,17 +30,35 @@
 }
 
 .friends-title {
-    font-family: Avenir Black;
+    font-family: Avenir Black, sans-serif;
     line-height: 1.5rem;
     margin: .25rem 0 .75rem 1rem;
 }
 
 .review-line {
+    display: flex;
     background-color: #FFFFFF;
-    font-family: Avenir Black;
     line-height: 3.35rem;
-    padding-left: 2rem;
-    margin: 0 0.5rem 0.5rem 1rem;
-    font-size: 14px;
+    margin: 0 1rem 0.5rem 1rem;
     border-radius: 10px;
+}
+
+.review-line-text {
+    width: 100%;
+    font-family: Avenir Black, sans-serif;;
+    font-size: 14px;
+}
+
+.list-item-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: center;
+    padding: 0 .75rem 0 1rem;
+}
+
+.right-arrow-icon {
+    align-self: center;
+    width: 1rem;
+    height: 1rem;
+    padding-right: 1.2rem;
 }
