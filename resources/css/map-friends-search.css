@@ -1,0 +1,120 @@
+.background {
+    position: absolute;
+    width: 390px;
+    height: 894px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu {
+    position: absolute;
+    width: 390px;
+    height: 450px;
+    left: 0px;
+    top: 390px;
+    background: #F8F8F8;
+    border-radius: 15px;
+}
+
+.menu-line {
+    position: relative;
+    width: 38px;
+    height: 6px;
+    left: 176px;
+    top: 5px;
+    background: #D8D9DB;
+    border-radius: 10px;
+}
+
+.search-bar {
+    position: relative;
+    width: 329px;
+    height: 28px;
+    margin: 0 auto 0 auto;
+    top: 25px;
+    
+    background: #e7e7e7;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+
+.search-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.search-bar span {
+    position: relative;
+    color: rgb(146, 145, 145);
+    margin-left: 10px;
+    top: -2px;
+}
+
+.friends {
+    background-color: white;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 360px;
+    margin: 40px auto 0 auto;
+}
+
+.friend-container {
+    border-bottom: solid 0.5px lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px;
+}
+
+.friend-container div:last-of-type {
+    margin-left: auto;
+}
+
+.friend-bitmoji {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.friend-bio img {
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+}
+
+.friend-bio {
+    display: flex;
+    align-items: center;
+    color: rgb(151, 150, 150);
+    font-size: 80%;
+}
+
+.friend-name {
+    font-weight: bold;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    background: #e7e7e7;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.checked {
+    background: #10ADFF;
+}
+
+.search-button {
+    padding: 10px;
+    background: #10ADFF;
+    border-radius: 60px;
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: 20px auto 0 auto;
+}

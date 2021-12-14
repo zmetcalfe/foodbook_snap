@@ -1,5 +1,6 @@
 .iphone-container {
-    height : 780px;
-    width : 360px;
+    width: 390px;
+    height: 894px;
+    position: relative;
     border: 1px solid black;
 }
