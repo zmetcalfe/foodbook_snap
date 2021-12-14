@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="./resources/css/my-lists.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class='iphone-container'>
+    <button id="backButton" class="back-button"></button>
+    <script type="text/javascript">
+        document.getElementById("backButton").onclick = function () {
+            location.href = "my-profile.html";
+        };
+    </script>
+    <img src="resources/images/lists/top-half-my-lists.png" class="my-lists-image-top" alt = 'my lists title'>
+
+    <div class="list-items-container">
+        <div class="list-line" id="myListButton">
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text" id="my-list-text">Best Brunches on the UWS</span>
+            <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
+        </div>
+
+        <script type="text/javascript">
+            document.getElementById("myListButton").onclick = function () {
+                location.href = "my-list.html";
+            };
+        </script>
+
+        <div class="list-line">
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text">Cafes to break up with your bf in</span>
+            <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
+        </div>
+
+        <div class="list-line">
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text">Sushi in chicago</span>
+            <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
+        </div>
+
+        <div class="list-line">
+            <img src="resources/images/icons/blue_plus.png" alt = 'blue plus sign' class="list-item-icon">
+            <span class="list-line-text">Add new list</span>
+            <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
