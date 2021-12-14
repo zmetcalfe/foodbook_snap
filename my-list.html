@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="./resources/css/my-list.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class='iphone-container'>
+    <button id="backButton" class="back-button"></button>
+    <script type="text/javascript">
+        document.getElementById("backButton").onclick = function () {
+            location.href = "my-lists.html";
+        };
+    </script>
+    <img src="resources/images/lists/top-half-my-list.png" class="my-list-image-top" alt = 'Best brunches on the UWS'>
+
+    <div class="list-items-container">
+        <button class="list-line" id="openListInfoButton" >
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text" id="list-item-text">12 steps to limbo</span>
+            <img src="resources/images/icons/arrow_down.png" alt = 'arrow pointing down' class="down-arrow-icon"/>
+        </button>
+        <div class="limbo-image-container" id ="limboImageContainerHidden">
+            <img src='resources/images/lists/restaurant-list.png' alt='12 steps to limbo restaurant info' id="limbo-img"/>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("openListInfoButton").onclick = function () {
+                limbo = document.getElementById("limboImageContainerHidden");
+                    if (limbo.style.display === "block") {
+                        limbo.style.display = "none";
+                    } else {
+                        limbo.style.display = "block";
+                    }
+            };
+        </script>
+
+
+        <div class="list-line">
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text">Juliette's last meal</span>
+            <img src="resources/images/icons/arrow_down.png" alt = 'arrow pointing down' class="down-arrow-icon">
+        </div>
+
+        <div class="list-line">
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text">Into the abyss</span>
+            <img src="resources/images/icons/arrow_down.png" alt = 'arrow pointing down' class="down-arrow-icon">
+        </div>
+
+        <div class="list-line">
+            <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
+            <span class="list-line-text">Momma's cupboard</span>
+            <img src="resources/images/icons/arrow_down.png" alt = 'arrow pointing down' class="down-arrow-icon">
+        </div>
+
+        <div class="list-line">
+            <img src="resources/images/icons/blue_plus.png" alt = 'blue plus sign' class="list-item-icon">
+            <span class="list-line-text">Add new list</span>
+            <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

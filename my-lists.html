@@ -17,11 +17,17 @@
     <img src="resources/images/lists/top-half-my-lists.png" class="my-lists-image-top" alt = 'my lists title'>
 
     <div class="list-items-container">
-        <div class="list-line">
+        <div class="list-line" id="myListButton">
             <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">
-            <span class="list-line-text">Best Brunches on the UWS</span>
+            <span class="list-line-text" id="my-list-text">Best Brunches on the UWS</span>
             <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
         </div>
+
+        <script type="text/javascript">
+            document.getElementById("myListButton").onclick = function () {
+                location.href = "my-list.html";
+            };
+        </script>
 
         <div class="list-line">
             <img src="resources/images/icons/plus.png" alt = 'plus sign' class="list-item-icon">

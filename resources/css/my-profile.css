@@ -31,6 +31,7 @@
     margin: 3.9rem 0 0 1.25rem;
     background: transparent;
     border: none !important;
+    cursor: pointer;
 }
 
 .friends-title {
@@ -60,6 +61,7 @@
 #myListsButton {
     border: none !important;
     padding: 0;
+    cursor: pointer;
 }
 
 .list-item-icon {
