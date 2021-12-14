@@ -8,7 +8,12 @@
 <body>
 
 <div class='iphone-container'>
-    <div class="back-button"></div>
+    <button id="backButton" class="back-button"></button>
+    <script type="text/javascript">
+        document.getElementById("backButton").onclick = function () {
+            location.href = "my-profile.html";
+        };
+    </script>
     <img src="resources/images/lists/top-half-my-lists.png" class="my-lists-image-top" alt = 'my lists title'>
 
     <div class="list-items-container">

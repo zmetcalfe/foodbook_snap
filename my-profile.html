@@ -7,7 +7,13 @@
 <body>
 
 <div class='iphone-container'>
-    <div class="back-button"></div>
+    <div class="back-button" id="backButton"></div>
+    <script type="text/javascript">
+        document.getElementById("backButton").onclick = function () {
+            location.href = "main.html"; // TO DO update this with homepage ? href
+        };
+    </script>
+
     <img src="resources/images/profile/top-half-profile.png" class="profile-image-top" alt = 'name, my stories, and snap map'>
 
     <div class="friends-title">
@@ -20,11 +26,17 @@
         <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
     </div>
 
-    <div class="review-line">
+    <button class="review-line" id="myListsButton">
         <img src="resources/images/icons/starred_review.png" alt = 'a list icon with a star' class="list-item-icon">
-        <span class="review-line-text">My Lists</span>
+        <span class="review-line-text" id="my-lists-text">My Lists</span>
         <img src="resources/images/icons/arrow_right.png" alt = 'arrow pointing right' class="right-arrow-icon">
-    </div>
+    </button>
+    <script type="text/javascript">
+        document.getElementById("myListsButton").onclick = function () {
+            location.href = "my-lists.html";
+        };
+    </script>
+
 
     <div class="review-line">
         <img src="resources/images/icons/liked_review.png" alt = 'a thumbs up with three stars' class="list-item-icon">

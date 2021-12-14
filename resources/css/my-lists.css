@@ -21,7 +21,8 @@
     height: 1rem;
     width: 1rem;
     margin: 4rem 0 0 1.25rem;
-    background: magenta;
+    background: transparent;
+    border: none !important;
 }
 
 .my-lists-image-top {
