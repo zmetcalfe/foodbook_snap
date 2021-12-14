@@ -16,17 +16,18 @@
     color: #17191D;
 }
 
-.profile-container {
-    #display: flex;
-}
-
 .profile-image-top {
     width: 100%;
-    #align-self: flex-start;
 }
 .profile-image-bottom {
     width: 100%;
-    #align-self: flex-end;
+}
+
+.back-button {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin: 3.9rem 0 0 1.25rem;
 }
 
 .friends-title {
