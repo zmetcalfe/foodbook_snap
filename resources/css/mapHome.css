@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Avenir Book";
+    src: url("../../avenir_ff/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+    font-family: "Avenir Black";
+    src: url("../../avenir_ff/AvenirLTStd-Black.otf");
+}
+
+#mapContainer {
+    position: relative;
+}
+
+#menu {
+    position: absolute;
+    top: 839px;
+}
+
+#snapMap {
+    position: absolute;
+    z-index: 0;
+}
+
+#topMenu {
+    position: absolute;
+    top: 58px;
+    z-index: 1;
+}
+
+#bottomMenu {
+    position: absolute;
+    bottom: 100px;
+    background-color: aqua;
+    z-index: 1;
+}
+
+#bitmojiLink {
+
+}
+
+#bitmojiButton {
+    background-color: blue;
+}
+
+#profileLink {
+    position: relative;
+    left: 15px;
+}
+
+#searchLink {
+    position: relative;
+    left: 25px;
+}
+
+#settingsLink {
+    position: relative;
+    left: 135px;
+}
+
+#locationTag {
+    font-family: Avenir white, sans-serif;
+    color: white;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 100px;
+    height: 42px;
+    width: 100px;
+    bottom: 25px;
+}
+
+.ellipse {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    z-index: 1;
+    display: inline-block;
+}
+
+.white {
+    background-color: rgba(255, 255, 255);
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.smallerIcon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 100%;
+    display: block;
+    margin: auto;
+    top: 13%;
+    position: relative;
+}
+/* .under {
+    position: absolute;
+}
+
+.over {
+    position: absolute
+} */
