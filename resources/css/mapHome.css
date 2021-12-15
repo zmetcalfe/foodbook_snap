@@ -30,9 +30,20 @@
 
 #bottomMenu {
     position: absolute;
-    bottom: 100px;
+    top: 755px;
+    left: 15px;
     background-color: aqua;
     z-index: 1;
+    width: 360px;
+    font-family: Avenir black, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomButton {
+    display: inline-block;
+    width: 33.33%;
 }
 
 #bitmojiLink {
