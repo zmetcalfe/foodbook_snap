@@ -32,29 +32,24 @@
     position: absolute;
     top: 755px;
     left: 15px;
-    background-color: aqua;
     z-index: 1;
     width: 360px;
     font-family: Avenir black, sans-serif;
     font-size: small;
+    /* display: flex;
+    justify-content: space-between; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.bottomButton {
-    display: inline-block;
-    width: 33.33%;
-}
+/* TODO: change places and friends button size to be a bit smaller */
 
-#bitmojiLink {
-
-}
-
-#bitmojiButton {
-    background-color: blue;
+#reviewsButton {
+    cursor: pointer;
 }
 
 #profileLink {
+    cursor: pointer;
     position: relative;
     left: 15px;
 }
@@ -76,15 +71,28 @@
     display: inline-block;
     position: relative;
     left: 40px;
+    bottom: 15px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.47);
     border-radius: 100px;
     height: 42px;
     width: 100px;
-    bottom: 25px;
+    line-height: 42px;
 }
 
-.ellipse {
+.centered {
+    position: relative;
+    left: 17%;
+}
+
+.curved-button {
+    border-radius: 100px;
+    z-index: 3;
+    bottom: 10px;
+    position: relative;
+}
+
+.ellipse-small {
     width: 42px;
     height: 42px;
     border-radius: 50%;
@@ -92,8 +100,18 @@
     display: inline-block;
 }
 
+.ellipse-large {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    display: inline-block;
+}
+
 .white {
     background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
 
 .black {
@@ -111,10 +129,8 @@
     top: 13%;
     position: relative;
 }
-/* .under {
-    position: absolute;
-}
 
-.over {
-    position: absolute
-} */
+.bottomButton {
+    /* display: inline-block; */
+    width: 25%;
+}
