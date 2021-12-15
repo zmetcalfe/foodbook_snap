@@ -1,6 +1,16 @@
 window.onload = (event) => {
+    let rev = sessionStorage.getItem('review');
     let thumbs_up = document.getElementsByClassName("fa-thumbs-up")[0];
     let thumbs_down = document.getElementsByClassName("fa-thumbs-down")[0];
+
+    if (rev !== "") {
+        if (rev === "pos") {
+            thumbs_up.classList.add("pos");
+        }
+        else {
+            thumbs_down.classList.add("neg");
+        }
+    }
 
     thumbs_up.addEventListener("click", function() {
         this.classList.toggle("pos");

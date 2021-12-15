@@ -30,6 +30,7 @@
     background: #61BD5E;
     margin-left: 20px;
     width: 35%;
+    cursor: pointer;
 }
 
 .send-button {
@@ -55,6 +56,10 @@
 .fa-thumbs-down.rev {
     margin-left: 7px;
     color: #df4d5b;
+}
+
+.opinion-pos, .opinion-neg {
+    cursor: pointer;
 }
 
 .rev {
@@ -126,4 +131,14 @@
 
 .friend-name {
     font-weight: bold;
+}
+
+.neg {
+    background-color: #df4d5b;
+    color: white;
+}
+
+.pos {
+    background-color: #5cba58;
+    color: white;
 }
