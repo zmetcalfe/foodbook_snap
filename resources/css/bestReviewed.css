@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Avenir Book";
+    src: url("../../avenir_ff/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+    font-family: "Avenir Black";
+    src: url("../../avenir_ff/AvenirLTStd-Black.otf");
+}
+
+.scrollBarHoriz {
+    background-color: #e5e5e5;
+    width: 50px;
+    height: 7px;
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+#filterMap {
+    width: 390px;
+    height: 630px;
+    cursor: pointer;
+}
+
+#filterMapImg {
+    width: 390px;
+}
+
+#reviewMenu {
+    font-family: Avenir black, sans-serif;
+    background-color: white;
+    border-radius: 60px;
+    z-index: 1; /* above map */
+    position: absolute;
+    width: 390px;
+    top: 670px;
+}
+
+#reviewMenuHeader {
+    display: inline-block;
+}
+
+#menuTitle {
+    color: black;
+    font-size: medium;
+    padding: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+#menuSearch {
+    background-color: #e5e5e5;
+    border-radius: 60px;
+    height: 25px;
+    width: 122px;
+    position: absolute;
+    top: 35px;
+    left: 213px;
+    text-align: center;
+    font-size: small;
+    cursor: pointer;
+}
+
+#searchIcon {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#searchTitle {
+    position: relative;
+    top: 4px;
+    right: 5%;
+}
+
+#openFriendSearch {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: 4px;
+    float: right;
+    border-radius: 100px;
+}
+
+.closeButtonContainer {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    background-color: #e5e5e5;
+}
+
+.closeButton {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    height: 25px;
+    width: 25px;
+}
+
+#menu {
+    position: absolute;
+    top: 839px;
+}
+
+#menuImg {
+    width: 390px; 
+    height: 55.47px;
+}

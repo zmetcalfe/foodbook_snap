@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     // Only clicks required are on profile and rest. reviews
     $("#profileLink").click(function(){
