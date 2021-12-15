@@ -18,6 +18,10 @@
     top: 10px;
 }
 
+#goHome {
+    cursor: pointer;
+}
+
 #filterMap {
     width: 390px;
     height: 630px;

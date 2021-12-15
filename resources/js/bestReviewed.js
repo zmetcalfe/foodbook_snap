@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // Only clicks required are on profile and rest. reviews
     $("#filterMap").click(function(){
-        location.href = "review.html";
+        location.href = "friends-review.html";
     });
 
     $("#goHome").click(function(){
