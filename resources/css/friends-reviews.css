@@ -17,6 +17,15 @@
     overflow-y: auto;
 }
 
+#close-button {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 70px;
+    left: 15px;
+    cursor: pointer;
+}
+
 .send-button, .write-review-button {
     padding: 5px;
     border-radius: 60px;

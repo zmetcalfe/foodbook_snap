@@ -2,6 +2,7 @@ window.onload = (event) => {
     let rev = sessionStorage.getItem('review');
     let thumbs_up = document.getElementsByClassName("fa-thumbs-up")[0];
     let thumbs_down = document.getElementsByClassName("fa-thumbs-down")[0];
+    let close_btn = document.getElementById('close-button');
 
     if (rev !== "") {
         if (rev === "pos") {
@@ -27,4 +28,8 @@ window.onload = (event) => {
             this.parentElement.remove();
         })
     }
+    
+    close_btn.addEventListener("click", function() {
+        location.href = "bestReviewed.html";
+    })
 };
