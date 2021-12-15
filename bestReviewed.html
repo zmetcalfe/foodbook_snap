@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="resources/css/main.css">
+        <link rel="stylesheet" href="resources/css/bestReviewed.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+    <div class="iphone-container">
+        <!-- Limited Interaction so any div click will get you to the review -->
+        <div id="filterMap">
+            <img id="filterMapImg" src="resources/images/backgrounds/filterMap.png">
+        </div>
+
+        <div id="reviewMenu">
+            <div class="scrollBarHoriz"></div>
+
+            <div id="reviewMenuHeader">
+                <div id="menuTitle"><b>Restaurant Reviews</b></div>
+                
+                <div id="menuSearch">
+                    <img id="searchIcon" src="resources/images/icons/search-icon.png">
+                    <b id="searchTitle">All Friends</b>
+                    <img id="openFriendSearch" src="resources/images/icons/arrow_up.png">
+                </div>
+
+                <div class="closeButtonContainer" id="goHome">
+                    <img class="closeButton" src="resources/images/icons/close.png">
+                </div>
+            </div>
+
+            <div id="filterButtons">
+                <div class="menuButton" id="bestReviewedButton">
+                    <b>Best Reviewed</b>
+                </div>
+                <div class="menuButton"><b>Liked</b></div>
+                <div class="menuButton"><b>All Reviewed</b></div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <img id="menuImg" src="resources/images/backgrounds/snapMenu.png" alt="Clickable main menu">
+        </div>
+    </div>
+        <script src="resources/js/bestReviewed.js"></script>
+    </body>
+</html>

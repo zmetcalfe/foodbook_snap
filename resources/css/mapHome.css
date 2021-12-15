@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Avenir Book";
+    src: url("../../avenir_ff/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+    font-family: "Avenir Black";
+    src: url("../../avenir_ff/AvenirLTStd-Black.otf");
+}
+
+#mapContainer {
+    position: relative;
+}
+
+#menu {
+    position: absolute;
+    top: 839px;
+}
+
+#snapMap {
+    position: absolute;
+    z-index: 0;
+}
+
+#topMenu {
+    position: absolute;
+    top: 58px;
+    z-index: 1;
+}
+
+/* Centering: https://stackoverflow.com/questions/114543/how-to-horizontally-center-an-element */
+#bottomMenu {
+    position: absolute;
+    top: 755px;
+    left: 15px;
+    z-index: 1;
+    width: 360px;
+    font-family: Avenir black, sans-serif;
+    font-size: small;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle-vertical {
+    z-index: 1;
+    width: 42px;
+    height: 85px;
+    position: absolute;
+    top: 122px;
+    left: 326px;
+}
+
+#subMenuImg {
+    border-radius: 60px;
+    width: 42px;
+    height: 85px;
+    padding-left: 5px;
+}
+
+#placesLink {
+    width: 70px;
+    text-align: center;
+    position:relative;
+    left: 10px;
+}
+
+#friendsLink {
+    width: 70px;
+    text-align: center;
+    position:relative;
+    left: 10px;
+}
+
+#reviewsButton {
+    cursor: pointer;
+}
+
+#profileLink {
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+}
+
+#searchLink {
+    position: relative;
+    left: 25px;
+}
+
+#settingsLink {
+    position: relative;
+    left: 135px;
+}
+
+/* Put text in the middle: https://www.w3schools.com/css/css_align.asp */
+#locationTag {
+    font-family: Avenir white, sans-serif;
+    color: white;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 100px;
+    height: 42px;
+    width: 100px;
+    line-height: 42px;
+}
+
+.centered {
+    position: relative;
+    left: 17%;
+}
+
+.curved-button {
+    border-radius: 100px;
+    z-index: 3;
+    bottom: 10px;
+    position: relative;
+}
+
+.ellipse-small {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    z-index: 1;
+    display: inline-block;
+}
+
+.ellipse-large {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    display: inline-block;
+}
+
+.white {
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.smallerIcon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 100%;
+    display: block;
+    margin: auto;
+    top: 13%;
+    position: relative;
+}
+
+.largerIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    position: relative;
+    top: 6px;
+}
+
+.bottomButton {
+    /* display: inline-block; */
+    width: 25%;
+}
