@@ -28,6 +28,7 @@
     z-index: 1;
 }
 
+/* Centering: https://stackoverflow.com/questions/114543/how-to-horizontally-center-an-element */
 #bottomMenu {
     position: absolute;
     top: 755px;
@@ -42,7 +43,35 @@
     justify-content: center;
 }
 
-/* TODO: change places and friends button size to be a bit smaller */
+.rectangle-vertical {
+    z-index: 1;
+    width: 42px;
+    height: 85px;
+    position: absolute;
+    top: 122px;
+    left: 326px;
+}
+
+#subMenuImg {
+    border-radius: 60px;
+    width: 42px;
+    height: 85px;
+    padding-left: 5px;
+}
+
+#placesLink {
+    width: 70px;
+    text-align: center;
+    position:relative;
+    left: 10px;
+}
+
+#friendsLink {
+    width: 70px;
+    text-align: center;
+    position:relative;
+    left: 10px;
+}
 
 #reviewsButton {
     cursor: pointer;
@@ -64,6 +93,7 @@
     left: 135px;
 }
 
+/* Put text in the middle: https://www.w3schools.com/css/css_align.asp */
 #locationTag {
     font-family: Avenir white, sans-serif;
     color: white;
@@ -128,6 +158,14 @@
     margin: auto;
     top: 13%;
     position: relative;
+}
+
+.largerIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    position: relative;
+    top: 6px;
 }
 
 .bottomButton {

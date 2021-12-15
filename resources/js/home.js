@@ -5,7 +5,6 @@ $(document).ready(function(){
         location.href = "my-profile.html";
     })
 
-    // TODO: Rest review click
     $("#reviewsButton").click(function(){
         location.href = "bestReviewed.html";
     })
