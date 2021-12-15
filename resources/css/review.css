@@ -7,7 +7,7 @@
 }
 
 .review-container {
-    overflow-y: scroll;
+    overflow-y: auto;
     position: absolute;
     width: 388px;
     height: 497px;
@@ -102,4 +102,27 @@
     margin-top: 15px;
     color: rgb(146, 145, 145);
     padding: 10px 0 0 10px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 3px; 
+}
+
+.button {
+    padding: 10px;
+    background: #10ADFF;
+    border-radius: 60px;
+    color: white;
+    text-align: center;
+    width: 25%;
+    margin: 20px auto 10px auto;
+}
+
+.fa, .close-icon {
+    cursor: pointer;
 }
