@@ -6,13 +6,7 @@
     color: #17191D;
 }
 
-.title {
-    margin-bottom: 100px;
-}
-
-
 .friends-review-container {
-    overflow-y: auto;
     position: absolute;
     width: 388px;
     height: 497px;
@@ -21,61 +15,61 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
-.write-review-button{
-    padding: 10px;
-    background: #61BD5E;
-    border-radius: 40px;
+
+.send-button, .write-review-button {
+    padding: 5px;
+    border-radius: 60px;
     color: white;
     text-align: center;
-    width: 25%;
-    margin: 20px auto 10px auto;
-
+    width: 20%;
+    margin-left: 3px;
 }
 
-.button-row{
-     padding: 10px;
+.write-review-button{
+    background: #61BD5E;
+    margin-left: 20px;
+    width: 35%;
 }
 
 .send-button {
-    box-sizing: border-box;
-    width: 100%;
-    padding-left: 7px;
-    padding-right: px;
-    padding-top: 10px;
-    padding-bottom:10px;
-    background: #4FAAF8;
-    border-radius: 60px;
-    color: white;
-    text-align: left;
-    box-sizing: boarder-box
+    background: #10ADFF;
+}
+
+.button-row{
+    margin: 20px 0;
     display: flex;
-
-    flex-wrap: nowrap;
-    width: 45%;
-    margin: 40px auto 40px auto;
+    align-items: center;
+    justify-content: center;
 }
 
-.fa {
-    padding: 5px 5px;
-    border-radius: 40px;
-    font-size: 10px;
-    margin-right: 5px;
+.icons img {
+    width: 20px;
+    height: 20px;
 }
 
-.far{
-    padding: 13px 9px;
-    border-radius: 40px;
+.fa-thumbs-up.rev {
+    color: #5cba58;
+}
+
+.fa-thumbs-down.rev {
+    margin-left: 7px;
+    color: #df4d5b;
+}
+
+.rev {
+    margin-right: 2px;
+}
+
+.icons {
     background-color: #eceff1;
-    font-size: 15px;
-    margin-right: 5px;
-
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 0px 3px;
 }
-.addButton {
-    padding: 13px 20px;
-    border-radius: 40px;
-    font-size: 10px;
-    background-color: #eceff1;
-    margin-right: 5px;
+
+.title {
+    font-weight: bold;
+    margin: 0 20px 0 5px;
 }
 
 .background {
@@ -84,12 +78,4 @@
     height: 894px;
     left: 0px;
     top: 0px;
-}
-::-webkit-scrollbar {
-    width: 3px;
-}
-
-::-webkit-scrollbar-thumb {
-    /* background: lightgrey; */
-    border-radius: 3px; 
 }
