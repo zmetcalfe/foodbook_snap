@@ -14,6 +14,7 @@
     background: #f6f8f9;
     border-radius: 5px;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .send-button, .write-review-button {
@@ -78,4 +79,51 @@
     height: 894px;
     left: 0px;
     top: 0px;
+}
+
+.review-container {
+    padding: 0 10px;
+}
+
+.review {
+    padding: 10px 20px 10px;
+    background-color: white;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 10px 0;
+}
+
+.friend-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.friend-container div:last-of-type {
+    margin-left: auto;
+}
+
+.friend-bitmoji {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.friend-bio img {
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+}
+
+.friend-bio {
+    display: flex;
+    align-items: center;
+    color: rgb(151, 150, 150);
+    font-size: 80%;
+}
+
+.friend-name {
+    font-weight: bold;
 }

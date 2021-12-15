@@ -104,15 +104,6 @@
     padding: 10px 0 0 10px;
 }
 
-::-webkit-scrollbar {
-    width: 3px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: lightgrey;
-    border-radius: 3px; 
-}
-
 .button {
     padding: 10px;
     background: #10ADFF;
