@@ -77,15 +77,17 @@
 
 .pos {
     background-color: #5cba58;
+    color: white;
 }
 
 .neg {
     background-color: #df4d5b;
+    color: white;
 }
 
 .close-icon {
-    width: 18px;
-    height: 18px;
+    width: 10px;
+    height: 10px;
     margin-left: 7px;
 }
 
