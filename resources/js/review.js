@@ -3,6 +3,7 @@ window.onload = (event) => {
     let thumbs_up = document.getElementsByClassName("fa-thumbs-up")[0];
     let thumbs_down = document.getElementsByClassName("fa-thumbs-down")[0];
     let close_btn = document.getElementById('close-button');
+    let submit = document.getElementsByClassName('button')[0];
 
     if (rev !== "") {
         if (rev === "pos") {
@@ -31,5 +32,9 @@ window.onload = (event) => {
     
     close_btn.addEventListener("click", function() {
         location.href = "bestReviewed.html";
+    })
+
+    submit.addEventListener("click", function() {
+        location.href = "friends-review.html";
     })
 };

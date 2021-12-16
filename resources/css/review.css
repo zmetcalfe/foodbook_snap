@@ -123,6 +123,7 @@
     text-align: center;
     width: 25%;
     margin: 20px auto 10px auto;
+    cursor: pointer;
 }
 
 .fa, .close-icon {
